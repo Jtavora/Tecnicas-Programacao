@@ -1,9 +1,0 @@
-{
-    "makefile.launchConfigurations": [
-        {
-            "cwd": "/home/tavora/Tecnicas-programacao/Teste-lista",
-            "binaryPath": "/home/tavora/Tecnicas-programacao/Teste-lista/prog.exe",
-            "binaryArgs": []
-        }
-    ]
-}
