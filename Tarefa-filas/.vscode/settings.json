@@ -1,9 +1,0 @@
-{
-    "makefile.launchConfigurations": [
-        {
-            "cwd": "/home/tavora/Tecnicas-programacao/Tarefa-filas",
-            "binaryPath": "/home/tavora/Tecnicas-programacao/Tarefa-filas/prog.exe",
-            "binaryArgs": []
-        }
-    ]
-}
