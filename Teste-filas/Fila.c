@@ -37,6 +37,9 @@ int main(){
     printf("\nSegunda fila.\n");
     imprime(h2);
 
+    printf("\nTerceira fila.\n");
+    imprime(h3);
+
     header *intercalado = intercala(h, h2, h3);
 
     printf("\nIntercaladas.\n");
