@@ -1,0 +1,17 @@
+Os termos "big O", "big omega", "big theta", "little o" e "little omega" são usados ​​para descrever a complexidade de tempo de um algoritmo em relação ao tamanho da entrada.
+
+Big O (O): descreve o pior caso de tempo de execução de um algoritmo. Em outras palavras, é uma cota superior que estabelece que o tempo de execução do algoritmo nunca excederá um determinado valor 
+(em termos assintóticos) à medida que a entrada aumenta. Por exemplo, um algoritmo de busca sequencial tem complexidade O(n) porque o pior caso ocorre quando o elemento procurado não está presente no array e o 
+algoritmo precisa percorrer todo o array.
+
+Big Omega (Ω): descreve o melhor caso de tempo de execução de um algoritmo. Em outras palavras, é uma cota inferior que estabelece que o tempo de execução do algoritmo nunca será menor do que um determinado valor 
+(em termos assintóticos) à medida que a entrada aumenta. Por exemplo, um algoritmo de busca binária tem complexidade Ω(log n) porque o melhor caso ocorre quando o elemento procurado está no meio do array.
+
+Big Theta (Θ): descreve a complexidade de tempo média de um algoritmo. É uma cota superior e inferior que estabelece que o tempo de execução do algoritmo está entre dois valores (em termos assintóticos) à medida que 
+a entrada aumenta. Por exemplo, o algoritmo de ordenação quicksort tem complexidade Θ(n log n) na maioria dos casos.
+
+Little o (o): descreve uma cota superior mais apertada do que big O. Ela estabelece que o tempo de execução do algoritmo cresce mais lentamente do que um determinado valor (em termos assintóticos) à medida que a 
+entrada aumenta. Por exemplo, se um algoritmo tem complexidade O(n^2) e alguém prova que o algoritmo na verdade é O(n^2/log n), pode-se dizer que o algoritmo é o(n^2/log n).
+
+Little Omega (ω): descreve uma cota inferior mais apertada do que big Omega. Ela estabelece que o tempo de execução do algoritmo cresce mais rapidamente do que um determinado valor (em termos assintóticos) à medida 
+que a entrada aumenta. Por exemplo, se um algoritmo tem complexidade Ω(n^2) e alguém prova que o algoritmo na verdade é Ω(n^3), pode-se dizer que o algoritmo é ω(n^2).
